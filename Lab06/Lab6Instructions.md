@@ -1,4 +1,4 @@
-Lab 6 Instructions:
+## Lab 6 Instructions:
 
 Background:
 
