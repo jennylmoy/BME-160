@@ -8,7 +8,7 @@ For this project, I have utilized ‘ATG’ for the start codon and ‘TAG’, �
 
 Additionally, there are some special cases such as dangling start fragments and stop fragments are used to locate ORFs. This means if a start codon was not found but a stop codon was found, this would be considered a dnagling stop ORF fragment (and vice versa for dangling start fragments). 
 
-I have provided an example of my code should work below:
+I have provided an example of how my program should work below:
 
 ```python
 >exampleguide1
