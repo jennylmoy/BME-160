@@ -12,5 +12,8 @@ This repository contains two programming laboratory assignments from my BME 160:
 #### Lab 6:
 `findUnique.py`
 
+### Requirements:
+These projects utilize Python 3.x, and no external libraries were imported and used into my programs. 
+
 ### Acknowledgements:
 These laboratory projects were completed as a part of the BME 160: Research Programming in the Life Sciences curriculum at UC Santa Cruz. 
