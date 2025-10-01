@@ -28,6 +28,5 @@ Thus, the example should have an ORF output like this:
 ### Project Overview:
 
 For this project, I have designed and programmed the class OrfFinder in the file sequenceAnalysis. This class locates all the possible combinations for ORFs that meet the conditions explained above. The purpose of this program is to automate the genome annotation and locate ORFs on DNA sequences. 
-
 With the data collected listed out in my output, this program can be helpful to provide others in the future with information about the location (start and end position) of ORFs on desired DNA sequences, as well as their lengths to be translated. 
 
