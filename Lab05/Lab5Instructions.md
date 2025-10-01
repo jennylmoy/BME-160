@@ -16,8 +16,18 @@ AAA AAA AAA TGA CCC CCC
 ```
 The DNA sequence is first read at frame position 1 and in sets of 3 representing codons. The program will read the sequence until a stop codon is found or it reaches the end of the DNA sequence. Here, 'TGA' is consider a stop codon, thus an ORF is located. This will repeat for each of the 6 frame positions. 
 
+This data will be collected and output in this format:
 
+{frame position} {start position} {end position} {ORF length}
 
-### Summary of Program:
+Thus, the example should have an ORF output like this:
+```python
++1 1 12 12 
+```
 
-I have designed and programmed the class OrfFinder in the file sequenceAnalysis. This class is to locate all the possible combinations of ORFs that meet the conditions explained above. 
+### Project Overview:
+
+For this project, I have designed and programmed the class OrfFinder in the file sequenceAnalysis. This class locates all the possible combinations for ORFs that meet the conditions explained above. The purpose of this program is to automate the genome annotation and locate ORFs on DNA sequences. 
+
+With the data collected listed out in my output, this program can be helpful to provide others in the future with information about the location (start and end position) of ORFs on desired DNA sequences, as well as their lengths to be translated. 
+
